@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "target": "ESNext",
+    "allowJs": true,
+    "lib": ["ESNext"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "incremental": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "esModuleInterop": true, 
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  }
+}
