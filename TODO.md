@@ -1,13 +1,12 @@
 # TODO
 
 - [x] README
-- [] Endpoint returns **n lines** from a **given log file**
-- [] Order logs newest to oldest: From bottom to top of file
-- [] REST API query parameters:
-  - [] Filename (within `/var/log`)
+- [x] Read file bottom to top
+- [x] Decent performance with **>1GB** files
+- [x] Endpoint with query parameters:
+  - [] Filename within `/var/log` (and subfolders)
   - [] Last **n** number of logs to retrieve
   - [] Filter results on **text matches**
-- [] Decent performance with **>1GB** files
 
 > **Do not** use external libs for `fs` and `file parsing`
 
